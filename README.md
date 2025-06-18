@@ -36,8 +36,6 @@ GPTs를 활용한 한국 시의 감정 분석 및 창작 과정을 손쉽게 재
 
 ## 📁 디렉토리 구성
 
-### 📁 디렉토리 구성
-
 - **01_GPTs_Basics/**
   - OpenAI의 Introducing GPTs 한글 번역본
   - OpenAI의 GPTs 관련 FAQ 한글 번역본
