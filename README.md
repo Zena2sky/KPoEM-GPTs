@@ -28,45 +28,37 @@ GPTs를 활용한 한국 시의 감정 분석 및 창작 과정을 손쉽게 재
 
 ## 📁 데이터 소개
 
-본 리포지터리에서 사용하는 데이터는 한국 현대시 작품을 기반으로 구축된 감정 라벨링 데이터로, GPTs 실험을 위한 주요 자료로 활용됩니다. 데이터는 Zenodo에서 확인할 수 있으며, 김소월, 윤동주, 임화, 이상, 한용운 등 주요 시인의 시 작품 총 483편에서 추출된 7,007개의 문장으로 구성되어 있습니다.
+본 리포지터리에서 사용하는 데이터는 한국 현대시 작품을 기반으로 구축된 감정 라벨링 데이터입니다. 데이터는 Zenodo (https://zenodo.org/records/15572285) 에서 확인할 수 있으며, 김소월, 윤동주, 임화, 이상, 한용운 등 주요 시인의 시 작품 총 483편에서 추출된 7,007개의 행별 문장으로 구성되어 있습니다.
 
-특히 GPTs 학습에 사용된 edited_columns_cleaned_final.jsonl 파일은 약 6,400개의 시 문장으로 구성되어 있으며, 5명의 어노테이터가 44개의 감정 라벨 중 최대 10개를 선택한 결과에서 3인 이상 공통된 감정만 추출한 신뢰도 높은 데이터셋입니다.
+특히 GPTs 학습에 사용된 edited_columns_cleaned_final.jsonl 파일은 약 6,400개의 시 문장으로 구성되어 있으며 5명의 어노테이터가 44개의 감정 라벨 중 최대 10개를 선택한 결과에서 3인 이상 공통된 감정만 추출한 신뢰도 높은 데이터셋입니다.
 
 ---
 
 ## 📁 디렉토리 구성
 
-01_GPTs_Basics/
+### 📁 디렉토리 구성
 
-OpenAI의 Introducing GPTs 한글 번역본
+- **01_GPTs_Basics/**
+  - OpenAI의 Introducing GPTs 한글 번역본
+  - OpenAI의 GPTs 관련 FAQ 한글 번역본
 
-OpenAI의 GPTs 관련 FAQ 한글 번역본
+- **02_Prompt_Design/**
+  - OpenAI의 Key Guidelines 한글 번역본
 
-02_Prompt_Design/
+- **03_Prompt_Version_Control/**
+  - Version 1: 초기 프롬프트 설계 및 수정 과정
+  - Version 2: 2차 프롬프트 개선 및 수정 과정
+  - Version 3: 최종 프롬프트 완성본 및 세부 수정 과정
 
-OpenAI의 Key Guidelines 한글 번역본
+- **04_Knowledge_Files/**
+  - CSV를 JSONL 파일로 변환하는 파이썬 코드
+  - 변환된 JSONL 파일
 
-03_Prompt_Version_Control/
+- **05_Poem_Generation_Cases/**
+  - 시 생성 성공 및 실패 사례 (PDF 파일)
 
-Version 1: 초기 프롬프트 설계 및 수정 과정
-
-Version 2: 2차 프롬프트 개선 및 수정 과정
-
-Version 3: 최종 프롬프트 완성본 및 세부 수정 과정
-
-04_Knowledge_Files/
-
-CSV를 JSONL 파일로 변환하는 파이썬 코드
-
-변환된 JSONL 파일
-
-05_Poem_Generation_Cases/
-
-시 생성 성공 및 실패 사례 (PDF 파일)
-
-06_Poem_Examples/
-
-GPTs로 생성한 한국 시 예시 모음
+- **06_Poem_Examples/**
+  - GPTs로 생성한 한국 시 예시 모음
 
 
 
